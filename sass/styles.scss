@@ -11,16 +11,11 @@
 	clear: both;
 	display: table;
 }
-  
-.blanco {
-	@include medidas;
-	background-color: white;
-	@include float; 
+
+div:nth-child(even){
+	@include even;
 }
-  
-.negro {
-	@include medidas;
-	background-color: black;
-	@include float; 
+
+div:nth-child(odd){
+@include odd;
 }
-  

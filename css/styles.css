@@ -8,13 +8,13 @@
   clear: both;
   display: table; }
 
-.blanco {
+div:nth-child(even) {
   width: 90px;
   height: 90px;
   background-color: white;
   float: left; }
 
-.negro {
+div:nth-child(odd) {
   width: 90px;
   height: 90px;
   background-color: black;

@@ -1,8 +1,13 @@
-@mixin medidas {
-    width: 90px;
-	height: 90px;
+@mixin even {
+    width:90px;
+    height:90px;
+    background-color:white; 
+    float:left;
 }
 
-@mixin float {
-    float: left;
+@mixin odd {
+    width:90px;
+    height:90px;
+    background-color:black;
+    float:left; 
 }
