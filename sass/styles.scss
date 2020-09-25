@@ -1,0 +1,26 @@
+@import'./Mixins/mixins';
+
+#container {
+	width: 630px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+  
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+  
+.blanco {
+	@include medidas;
+	background-color: white;
+	@include float; 
+}
+  
+.negro {
+	@include medidas;
+	background-color: black;
+	@include float; 
+}
+  
